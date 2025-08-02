@@ -109,6 +109,8 @@ QuickDesk is a simple, efficient help desk solution developed for the Odoo x CGC
 7. Resolution: Ticket is resolved and closed with user confirmation
 
 ## 🏗 Project Structure
+
+```
 QuickDesk/
 ├── backend/                 # Node.js Express Backend
 │   ├── models/             # MongoDB Mongoose models
@@ -130,6 +132,7 @@ QuickDesk/
 │   └── package.json      # Frontend dependencies
 ├── README.md             # Project documentation
 └── .gitignore           # Git ignore rules
+```
 
 ## 🚀 Installation & Setup
 
@@ -140,14 +143,14 @@ QuickDesk/
 
 ### Installation Steps
 
-1. Clone the repository
-   bash
+1. **Clone the repository**
+   ```bash
    git clone https://github.com/GiriAditya14/QuickDesk_Odoo_Hackathon.git
    cd QuickDesk_Odoo_Hackathon
-   
+   ```
 
-2. Backend Setup
-   bash
+2. **Backend Setup**
+   ```bash
    # Navigate to backend directory
    cd backend
    
@@ -162,10 +165,10 @@ QuickDesk/
    npm start
    # or for development
    npm run dev
-   
+   ```
 
-3. Frontend Setup
-   bash
+3. **Frontend Setup**
+   ```bash
    # Navigate to frontend directory (open new terminal)
    cd frontend
    
@@ -178,39 +181,39 @@ QuickDesk/
    
    # Start React development server
    npm start
-   
+   ```
 
-4. Access the Application
-   - Frontend: http://localhost:3000
-   - Backend API: http://localhost:5000/api/v1
+4. **Access the Application**
+   - Frontend: `http://localhost:3000`
+   - Backend API: `http://localhost:5000/api`
 
 ## 📝 API Documentation
 
 ### Authentication Endpoints
-- POST /api/v1/auth/register - User registration
-- POST /api/v1/auth/login - User login
-- POST /api/v1/auth/logout - User logout
+- `POST /api/auth/register` - User registration
+- `POST /api/auth/login` - User login
+- `POST /api/auth/logout` - User logout
 
 ### Ticket Management
-- GET /api/v1/tickets - Get all tickets (with filters)
-- POST /api/v1/tickets - Create new ticket
-- GET /api/v1/tickets/:id - Get specific ticket
-- PUT /api/v1/tickets/:id - Update ticket
-- DELETE /api/v1/tickets/:id - Delete ticket
+- `GET /api/tickets` - Get all tickets (with filters)
+- `POST /api/tickets` - Create new ticket
+- `GET /api/tickets/:id` - Get specific ticket
+- `PUT /api/tickets/:id` - Update ticket
+- `DELETE /api/tickets/:id` - Delete ticket
 
 ### User Management (Admin)
-- GET /api/v1/users - Get all users
-- PUT /api/v1/users/:id/role - Update user role
-- DELETE /api/v1/users/:id - Delete user
+- `GET /api/users` - Get all users
+- `PUT /api/users/:id/role` - Update user role
+- `DELETE /api/users/:id` - Delete user
 
 ### Categories
-- GET /api/v1/categories - Get all categories
-- POST /api/v1/categories - Create category (Admin)
-- PUT /api/v1/categories/:id - Update category (Admin)
+- `GET /api/categories` - Get all categories
+- `POST /api/categories` - Create category (Admin)
+- `PUT /api/categories/:id` - Update category (Admin)
 
 ## 🧪 Testing
 
-bash
+```bash
 # Run backend tests
 cd backend
 npm test
@@ -221,6 +224,7 @@ npm test
 
 # Run all tests
 npm run test:all
+```
 
 ## 🎯 Key Features Implemented
 
@@ -287,3 +291,5 @@ For any queries or support regarding this project:
 ---
 
 Built with ❤️ using MERN Stack for Odoo x CGC Mohali Hackathon 2025
+
+
