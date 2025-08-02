@@ -44,18 +44,9 @@ function ProfileModal() {
 
         <div className="mt-4 relative flex justify-between">
           <div className="relative inline-block">
-            <Image
-              src={photo}
-              alt="profile"
-              width={80}
-              height={80}
-              className="rounded-full"
-            />
+            
             <div className="absolute bottom-0 right-1 shadow-sm">
-              <span className="text-lg text-blue-400">{badge}</span>
-              <span className="absolute z-20 left-[50%] top-[50%] translate-x-[-50%] translate-y-[-50%] text-xs text-white">
-                {check}
-              </span>
+             
             </div>
           </div>
           <div className="self-end flex items-center gap-2">

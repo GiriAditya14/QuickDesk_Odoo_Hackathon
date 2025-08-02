@@ -56,7 +56,7 @@ function Header() {
 
         <div className="flex gap-4 items-center">
           <Link
-            href="https://github.com/Maclinz/taskfyer"
+            href="https://github.com/GiriAditya14/QuickDesk_Odoo_Hackathon"
             passHref
             target="_blank"
             rel="noopener noreferrer"
@@ -65,7 +65,7 @@ function Header() {
             {github}
           </Link>
           <Link
-            href="https://github.com/Maclinz/taskfyer"
+            href="https://github.com/GiriAditya14/QuickDesk_Odoo_Hackathon"
             passHref
             target="_blank"
             rel="noopener noreferrer"
@@ -74,7 +74,7 @@ function Header() {
             {moon}
           </Link>
           <Link
-            href="https://github.com/Maclinz/taskfyer"
+            href="https://github.com/GiriAditya14/QuickDesk_Odoo_Hackathon"
             passHref
             target="_blank"
             rel="noopener noreferrer"
